@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style3.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1 style="font-size: 35px; color: red">Logo</h1>
+      </div>
+      <ul>
+        <li class="menu"><a href="index.html">Our Team</a></li>
+        <li class="menu"><a href="index2.html">Personal Details</a></li>
+        <li class="menu"><a href="" style="color: red">Contact us</a></li>
+      </ul>
+      <div class="line">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+
+    <div class="console">
+      <p class="our"><a href="index.html">Our Team</a></p>
+      <p class="personal"><a href="index2.html">Personal Details</a></p>
+    </div>
+
+    <!------->
+    <div class="container">
+      <h1>Contact us</h1>
+      <div>
+        <p>
+          We are a team of engineers, communication experts and innovators who
+          specialise in developing<br> technology propositions for the world around
+          us. We noticed that in an overwhelming number of<br> use cases, technology
+          was not really the problem; mistrust came from how it was deployed by<br>
+          creators and then understood and used by consumers.
+        </p>
+      </div>
+    </div>
+    <!----FOOTER-->
+    <div class="footer">
+        <p class="p1">We’ve got one planet—let’s treat it right.</p>
+        <p class="p2">© 2024 Company Name</p>
+  
+        <p class="p3">Privacy Policy</p>
+        <p class="p4">Terms & Conditions</p>
+      </div>
+    <script>
+      const line = document.querySelector(".line");
+      const ul = document.querySelector("nav ul");
+      line.addEventListener("click", () => {
+        ul.classList.toggle("showmenu");
+      });
+    </script>
+  </body>
+</html>

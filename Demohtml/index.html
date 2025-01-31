@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1 style="font-size: 35px; color: red">Logo</h1>
+      </div>
+      <ul>
+        <li class="menu"><a href="" style="color: red">Our Team</a></li>
+        <li class="menu"><a href="index2.html">Personal Details</a></li>
+        <li class="menu"><a href="index3.html">Contact us</a></li>
+      </ul>
+      <div class="line">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+    </nav>
+    <!-----DEMO-->
+    <div class="console">
+      <p class="personal"><a href="index2.html">Personal Details</a></p>
+      <p class="contact"><a href="index3.html">Contact us</a></p>
+    </div>
+    <!---BODY-->
+    <div class="whole">
+      <h1>Our Team</h1>
+      <div class="p">
+        We believe that great ideas come to life through collaboration and
+        innovation. Our team is a <br />
+        diverse group of passionate professionals, each bringing unique skills
+        and experiences to the table.<br />
+        From creative designers and strategic thinkers to technical experts and
+        problem-solvers, we are<br />
+        united by a shared vision of delivering excellence in everything we do.
+        <p>
+            Our mission is to empower businesses and individuals by creating
+            innovative, sustainable, and<br> user-friendly designs. With a culture that
+            values integrity, growth, and teamwork, we are<br> committed to creating
+            meaningful solutions that make a difference. Whether it’s crafting
+            cutting-<br>edge designs, developing user-centered interfaces, or building
+            sustainable solutions, our team<br> thrives on turning challenges into
+            opportunities.   
+        </p>
+      </div>
+    </div>
+
+    <!-----IMAGES-->
+    <div class="images">
+      <div class="img">
+        <img src="images/Group 2368.jpg" />
+        <img src="images/Group 2369.jpg" />
+        <img src="images/Group 2370.jpg" />
+        <img src="images/Group 2371.jpg" />
+      </div>
+    </div>
+
+    <!----FOOTER-->
+    <div class="footer">
+      <p class="p1">We’ve got one planet—let’s treat it right.</p>
+      <p class="p2">© 2024 Company Name</p>
+
+      <p class="p3">Privacy Policy</p>
+      <p class="p4">Terms & Conditions</p>
+    </div>
+    <script>
+      const line = document.querySelector(".line");
+      const ul = document.querySelector("nav ul");
+      line.addEventListener("click", () => {
+        ul.classList.toggle("showmenu");
+      });
+    </script>
+  </body>
+</html>
